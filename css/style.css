@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('components/container.css');
+@import url('components/avatar.css');
+@import url('components/button-text.css');
+@import url('components/gradient-button.css');
+@import url('components/banner.css');
+
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	line-height: 65px;
+
+}
+
+h1,h2,h3{
+	font-family:'Roboto', sans-serif;
+}
+
+h2{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+h1 {
+	font-size: 50px;
+	color: white;
+}
+
+h3 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	font-size: 10px;
+}
+
+p{
+	color:black;
+	font-size:15px;
+	text-align: center;
+	font-weight: lighter;
+	line-height: normal;
+}
+
+ .btn-regular:hover{
+ 	background: Grey;
+ 	justify-content: center;
+ }
+
+
+#list-inline {
+	list-style: none;
+}
+
+img{
+	width: 500px;
+	margin-bottom: 60px
+}

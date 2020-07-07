@@ -1,0 +1,58 @@
+.card-white-imagef {
+	background-image: url(../../images/falmouth.jpg);
+	background-size: cover;
+	width: 280px;
+	height: 300px;
+	border-radius: 5px
+	box-shadow
+}
+.card-white-imageh {
+	background: url(../../images/hyannis.jpg);
+	background-size: cover;
+	width: 280px;
+	height: 300px;
+	border-radius: 5px
+}
+
+.card-white-imagep{
+	background: url(../../images/provience.jpg);
+	background-size: cover;
+	width: 280px;
+	height: 300px;
+	border-radius: 5px
+
+}
+
+.cards {
+ /*	display: flex;
+ 	justify-content: space-between;
+ 	padding: 15px;*/
+ 	display:grid;
+ 	grid-gap:20px;
+ 	justify-content: center;
+
+}
+
+.card-container {
+	background: white;
+	padding: 10px 8px;
+	border-radius: 5px
+}
+
+.card-description{
+	
+
+}
+
+@media only screen and (min-width: 600px){
+	.cards{
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+
+@media only screen and (min-width: 900px){
+	.cards{
+		grid-template-columns: repeat(3,1fr);
+	}
+}
